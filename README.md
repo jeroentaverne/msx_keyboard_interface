@@ -6,7 +6,7 @@ Extra features are added which are normally not possible with the real MSX keybo
 The firmware can be upgraded by connecting it to Windows/MAC/Linux using the micro USB connection. The firmware update is just drag and drop a file.
 
 You can order it by sending me an email with the keyword MSX in the subject to: j.taverne@gmail.com
-For support and feature requests you can send an email to: j.taverne@gmail.com
+For support and feature requests you can also send me an email or post a message through github.
 
 WARNING: NEVER connect the interface or USB keyboard while the MSX is powered on!
 
@@ -27,7 +27,7 @@ Setup:
 
 Firmware update:
 
--	Make sure you downloaded a .uf2 file from this github page. Never use any other .uf2 file!
+-	Make sure you received or downloaded a .uf2 file from this github page. Never use any other .uf2 file!
 -	Turn off the MSX.
 -	Disconnect the USB keyboard.
 -	Remove the interface from the MSX.
