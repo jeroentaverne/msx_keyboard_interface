@@ -1,0 +1,77 @@
+👋 Hi, I’m Jeroen Taverne
+
+I have created an interface to connect a USB keyboard to a MSX computer, currently suitable for a Philips NMS8250, NMS8255 and NMS8280.
+It consists of a small box (3D printed) with internal small computer which reads the USB keycodes and simulates the keypresses on the keyboard matrix.
+Extra features are added which are normally not possible with the real MSX keyboard.
+The firmware can be upgraded by connecting it to Windows/MAC/Linux using the micro USB connection. The firmware update is just drag and drop a file.
+
+You can order it by sending me an email with the keyword MSX in the subject to: j.taverne@gmail.com
+For support and feature requests you can send an email to: j.taverne@gmail.com
+
+WARNING: NEVER connect the interface or USB keyboard while the MSX is powered on!
+
+Setup:
+
+-	Insert the interface into the keyboard connector of the MSX Philips NMS82xx. Make sure the "TOP SIDE" text is pointing to the top.
+-	Connect an USB keyboard which matches the layout of the original MSX keyboard. USB hubs and USB keyboards with built in USB hub are currently not supported! Perhaps in the future this is possible with a firmware upgrade.
+-	Turn on the MSX without any floppy disk or cartridge inserted.
+-	The NUMLOCK indicator on the keyboard should turn on now to indicate correct connection.
+-	Make sure the computer enters the BASIC screen.
+-	If you have a German MSX now press CTRL+ALT+F2 or if you have a French MSX press CTRL+ALT+F3. This makes sure that the extra function keys and help page are shown properly. Support for other languages can be requested.
+-	Check if the keyboard works properly now by doing some typing.
+-	The current keyboard setting can be stored in FLASH now by pressing CTRL+ALT+S.
+-	By pressing F12 a help page is automatically typed (slowly) on the MSX screen.
+-	Extra function keys are available, see below.
+-	For debugging purposes a USB keycode debugger and keyboard matrix monitor can be started, see help page.
+-	When everything works as expected you can insert floppy disks and cartridges again and try some games or other software.
+
+Firmware update:
+
+-	Make sure you downloaded a .uf2 file from this github page. Never use any other .uf2 file!
+-	Turn off the MSX.
+-	Disconnect the USB keyboard.
+-	Remove the interface from the MSX.
+-	Connect the interface to a PC or Mac machine using a standard micro USB cable.
+-	A USB drive should be installed and become visible.
+-	Copy /drag the .uf2 file to the USB drive.
+-	The update will take place and will only takes a few seconds.
+-	After the update the USB drive will disappear.
+-	Disconnect the interface from the micro USB cable.
+-	Follow above setup steps again.
+
+Extra keys:
+
+- F6: files
+- F7: load
+- F8: _system
+- F9: lprint
+- F10: _format
+- F11: screen 0:width 80:color 15,1,1
+- F12: show help page
+- shift+F6: dir
+- shift+F7: copy
+- shift+F8: basic
+- shift+F9: set screen
+- shift+F10: _format
+- shift+F11: none at the moment
+- shift+F12: show version
+
+- Key before the “1” key : Most right key on the third row
+- Most right key on the third row	: Most right key on the first row
+- SCROLL LOCK key : SELECT key
+- PAUSE key : STOP key
+- END key : CTRL+N key (go to end of line)
+- Left CTRL key : CTRL key
+- Left ALT key : GRAPH key
+- Right ALT key : CODE key
+- Right CTRL key : “DEAD” key before or after right shift key
+- Windows keys : SPACE key for shooting/jumping in games
+- CTRL+ALT+F1 : set US/NL machine
+- CTRL+ALT+F2 : set German machine
+- CTRL+ALT+F3 : set French machine
+- CTRL+ALT+L : show current layout without and with shift
+- CTRL+ALT+D : start USB keycode debugger
+- CTRL+ALT+M : start keyboard matrix monitor
+- CTRL+ALT+S : store settings in FLASH
+- CTRL+ALT+R : retrieve settings from FLASH
+- CTRL+ALT+DEL : reboot machine (only works in BASIC)
