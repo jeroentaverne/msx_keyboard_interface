@@ -2,7 +2,11 @@
 
 I have created an interface to connect a USB keyboard to a MSX computer, currently suitable for a Philips NMS8250, NMS8255 and NMS8280.
 It consists of a small box (3D printed) with internal small computer which reads the USB keycodes and simulates the keypresses on the keyboard matrix.
+
 Extra features are added which are normally not possible with the real MSX keyboard.
+
+Some keyboards don't allow pressing cursor keys and space button at the same time because of ghosting. Playing games like Nemesis could couse issues. That's why the left and right windows keys can be used as space as well with this my keyboard interface. Also see this post: https://www.msx.org/forum/semi-msx-talk/emulation/bluemsx-24-25-keyboard-emulation
+
 The firmware can be upgraded by connecting it to Windows/MAC/Linux using the micro USB connection. The firmware update is just drag and drop a file.
 
 You can order it by sending me an email with the keyword MSX in the subject to: j.taverne@gmail.com
