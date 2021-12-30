@@ -65,7 +65,7 @@ Extra keys:
 - shift+F12: show version
 
 - Key before the “1” key : Most right key on the third row
-- Most right key on the third row	: Most right key on the first row
+- Most right key on the third row : Most right key on the first row
 - SCROLL LOCK key : SELECT key
 - PAUSE key : STOP key
 - END key : CTRL+N key (go to end of line)
@@ -83,3 +83,18 @@ Extra keys:
 - CTRL+ALT+S : store settings in FLASH
 - CTRL+ALT+R : retrieve settings from FLASH
 - CTRL+ALT+DEL : reboot machine (only works in BASIC)
+
+Tested with:
+
+- Motospeed mechanical RGB keyboard (no ghosting)
+- Battletron mechanical RGB keyboard (no ghosting) (sold by Action)
+- Logitech G105 gaming keyboard (no ghosting)
+- Logitech wireless keyboard with Unifying receiver
+- Lenovo EKB-536A
+- Logitech K120
+- Microsoft wired keyboard 400
+- Sweex KB060US
+- DELL SK-8115
+- Konig CSKMCU100US
+- Razor Black Widow
+- CoolerMaster MASTERKEYS MK750
