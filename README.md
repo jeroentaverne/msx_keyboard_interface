@@ -15,8 +15,6 @@ The firmware can be upgraded by connecting it to Windows/MAC/Linux using the mic
 You can order it by sending me an email with the keyword MSX in the subject to: j.taverne@gmail.com
 For support and feature requests you can also send me an email or post a message through github.
 
-Latest fimrwares can be found here: https://github.com/jeroentaverne/msx_keyboard_interface
-
 ![alt text](https://github.com/jeroentaverne/msx_keyboard_interface/blob/main/photos/sony3.jpg)
 ![alt text](https://github.com/jeroentaverne/msx_keyboard_interface/blob/main/photos/photo1.jpg)
 
@@ -42,6 +40,8 @@ Setup:
 -	When everything works as expected you can insert floppy disks and cartridges again and try some games or other software.
 
 Firmware update:
+
+Latest fimrwares (.uf2 files) can be found here: https://github.com/jeroentaverne/msx_keyboard_interface
 
 -	Make sure you received or downloaded a .uf2 file from this github page. Never use any other .uf2 file!
 -	Turn off the MSX.
