@@ -1,36 +1,44 @@
 👋 Hi, I’m Jeroen Taverne
 
-I have created an interface to connect a USB keyboard to a MSX computer, currently suitable for a Philips NMS8250, NMS8255 and NMS8280.
+I have created an interface to connect a USB keyboard to a MSX computer, currently there are two versions:
+- For Philips NMS8250, NMS8255 and NMS8280
+- For Sony machines with the 13 pin keyboard connector like HB-F700, HB-F500, HB-F900
+
 It consists of a small box (3D printed) with internal small computer which reads the USB keycodes and simulates the keypresses on the keyboard matrix.
 
 Extra features are added which are normally not possible with the real MSX keyboard.
 
-Some keyboards don't allow pressing cursor keys and space button at the same time because of ghosting. Playing games like Nemesis could couse issues. That's why the left and right windows keys can be used as space as well with this my keyboard interface. Also see this post: https://www.msx.org/forum/semi-msx-talk/emulation/bluemsx-24-25-keyboard-emulation
+Some keyboards don't allow pressing cursor keys and space button at the same time because of ghosting. Playing games like Nemesis or Quarth could couse issues. That's why the left and right windows keys can be used as space as well with this my keyboard interface. Also see this post: https://www.msx.org/forum/semi-msx-talk/emulation/bluemsx-24-25-keyboard-emulation
 
 The firmware can be upgraded by connecting it to Windows/MAC/Linux using the micro USB connection. The firmware update is just drag and drop a file.
 
 You can order it by sending me an email with the keyword MSX in the subject to: j.taverne@gmail.com
 For support and feature requests you can also send me an email or post a message through github.
 
-Latest fimrware can be found here: https://github.com/jeroentaverne/msx_keyboard_interface/blob/main/msxusbkeyboard_v110.uf2
+Latest fimrwares can be found here: https://github.com/jeroentaverne/msx_keyboard_interface/blob/main
 
+![alt text](https://github.com/jeroentaverne/msx_keyboard_interface/blob/main/photos/sony3.jpg)
 ![alt text](https://github.com/jeroentaverne/msx_keyboard_interface/blob/main/photos/photo1.jpg)
 
 WARNING: NEVER connect the interface or USB keyboard while the MSX is powered on!
 
 Setup:
 
--	Insert the interface into the keyboard connector of the MSX Philips NMS82xx. Make sure the "TOP SIDE" text is pointing to the top.
+-	Insert the interface into the keyboard connector of the MSX. Make sure for the Philips version the "TOP SIDE" text is pointing to the top.
 -	Connect an USB keyboard which matches the layout of the original MSX keyboard. USB hubs and USB keyboards with built in USB hub are currently not supported! Perhaps in the future this is possible with a firmware upgrade.
 -	Turn on the MSX without any floppy disk or cartridge inserted.
 -	The NUMLOCK indicator on the keyboard should turn on now to indicate correct connection.
 -	Make sure the computer enters the BASIC screen.
--	If you have a German MSX now press CTRL+ALT+F2 or if you have a French MSX press CTRL+ALT+F3. This makes sure that the extra function keys and help page are shown properly. Support for other languages can be requested.
--	Check if the keyboard works properly now by doing some typing.
+-	Now you can select the language of the MSX machine. This is required to make the extra function keys and helppage working properly. For Spanish machines it also enables character translation because the Spanish USB keyboard layout is much different from the original Spanish MSX layout.
+-- CTRL+ALT+F1 : Dutch / International
+-- CTRL+ALT+F2 : German
+-- CTRL+ALT+F3 : French
+-- CTRL+ALT+F4 : Spanish
+
+-	Check if the keyboard works properly now by doing some typing. Press F12 to check if the helppage is shown properly. Press ESC to stop the auto typing.
 -	The current keyboard setting can be stored in FLASH now by pressing CTRL+ALT+S.
--	By pressing F12 a help page is automatically typed (slowly) on the MSX screen.
 -	Extra function keys are available, see below.
--	For debugging purposes a USB keycode debugger and keyboard matrix monitor can be started, see help page.
+-	For debugging purposes a USB keycode debugger and keyboard matrix monitor can be started, see below.
 -	When everything works as expected you can insert floppy disks and cartridges again and try some games or other software.
 
 Firmware update:
@@ -77,12 +85,12 @@ Extra keys:
 - CTRL+ALT+F1 : set US/NL machine
 - CTRL+ALT+F2 : set German machine
 - CTRL+ALT+F3 : set French machine
+- CTRL+ALT+F3 : set Spanish machine
 - CTRL+ALT+L : show current layout without and with shift
 - CTRL+ALT+D : start USB keycode debugger
 - CTRL+ALT+M : start keyboard matrix monitor
 - CTRL+ALT+S : store settings in FLASH
 - CTRL+ALT+R : retrieve settings from FLASH
-- CTRL+ALT+DEL : reboot machine (only works in BASIC)
 
 Tested with:
 
