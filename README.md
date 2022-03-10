@@ -41,6 +41,8 @@ Setup:
 
 Firmware update:
 
+From version 2.00 and up the firmware for Philips and Sony interfaces is the same.
+
 Latest fimrwares (.uf2 files) can be found here: https://github.com/jeroentaverne/msx_keyboard_interface
 
 -	Make sure you received or downloaded a .uf2 file from this github page. Never use any other .uf2 file!
@@ -85,7 +87,7 @@ Extra keys:
 - CTRL+ALT+F1 : set US/NL machine
 - CTRL+ALT+F2 : set German machine
 - CTRL+ALT+F3 : set French machine
-- CTRL+ALT+F3 : set Spanish machine
+- CTRL+ALT+F4 : set Spanish machine
 - CTRL+ALT+L : show current layout without and with shift
 - CTRL+ALT+D : start USB keycode debugger
 - CTRL+ALT+M : start keyboard matrix monitor
