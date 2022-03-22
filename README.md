@@ -22,6 +22,7 @@ WARNING: NEVER connect the interface or USB keyboard while the MSX is powered on
 
 Setup:
 
+- The interface doesn't need external power, the micro USB connector stays disconnected during normal use
 -	Insert the interface into the keyboard connector of the MSX. Make sure for the Philips version the "TOP SIDE" text is pointing to the top.
 -	Connect an USB keyboard which matches the layout of the original MSX keyboard. USB hubs and USB keyboards with built in USB hub are currently not supported! Perhaps in the future this is possible with a firmware upgrade.
 -	Turn on the MSX without any floppy disk or cartridge inserted.
