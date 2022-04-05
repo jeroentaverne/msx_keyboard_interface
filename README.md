@@ -15,6 +15,7 @@ The firmware can be upgraded by connecting it to Windows/MAC/Linux using the mic
 You can order it by sending me an email with the keyword MSX in the subject to: j.taverne@gmail.com
 For support and feature requests you can also send me an email or post a message through github.
 
+![alt text](https://github.com/jeroentaverne/msx_keyboard_interface/blob/main/photos/sony1.jpg)
 ![alt text](https://github.com/jeroentaverne/msx_keyboard_interface/blob/main/photos/sony3.jpg)
 ![alt text](https://github.com/jeroentaverne/msx_keyboard_interface/blob/main/photos/photo1.jpg)
 
