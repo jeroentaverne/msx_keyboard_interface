@@ -31,10 +31,10 @@ Setup:
 -	The NUMLOCK indicator on the keyboard should turn on now to indicate correct connection.
 -	Make sure the computer enters the BASIC screen.
 -	Now you can select the language of the MSX machine. This is required to make the extra function keys and helppage working properly. For Spanish machines it also enables character translation because the Spanish USB keyboard layout is much different from the original Spanish MSX layout.
--- CTRL+ALT+F1 : Dutch / International
--- CTRL+ALT+F2 : German
--- CTRL+ALT+F3 : French
--- CTRL+ALT+F4 : Spanish
+- CTRL+ALT+F1 : Dutch / International
+- CTRL+ALT+F2 : German
+- CTRL+ALT+F3 : French
+- CTRL+ALT+F4 : Spanish
 
 -	Check if the keyboard works properly now by doing some typing. Press F12 to check if the helppage is shown properly. Press ESC to stop the auto typing.
 -	The current keyboard setting can be stored in FLASH now by pressing CTRL+ALT+S.
@@ -46,7 +46,7 @@ Firmware update:
 
 From version 2.00 and up the firmware for Philips and Sony interfaces is the same.
 
-Latest fimrwares (.uf2 files) can be found here: https://github.com/jeroentaverne/msx_keyboard_interface
+Latest firmware (.uf2 files) can be found here: https://github.com/jeroentaverne/msx_keyboard_interface
 
 -	Make sure you received or downloaded a .uf2 file from this github page. Never use any other .uf2 file!
 -	Turn off the MSX.
