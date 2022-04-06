@@ -99,6 +99,8 @@ Extra keys:
 
 Tested with:
 
+- Multiple wired Apple keyboards
+- Multiple USB hubs
 - Motospeed mechanical RGB keyboard (no ghosting)
 - Battletron mechanical RGB keyboard (no ghosting) (sold by Action)
 - Logitech G105 gaming keyboard (no ghosting)
