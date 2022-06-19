@@ -26,7 +26,7 @@ Setup:
 - The interface doesn't need external power, the micro USB connector stays disconnected during normal use
 -	Insert the interface into the keyboard connector of the MSX. Make sure for the Philips version the "TOP SIDE" text is pointing to the top.
 -	Connect an USB keyboard which matches the layout of the original MSX keyboard, else the symbols will be in the wrong locations. For instance: Sony HB-F700P needs US international keyboard. HB-F700S need Spanish keyboard. HB-F700D need German keyboard. HB-F700F needs French keyboard. NMS8250/00 needs US international keyboard. NMS8250/16 needs Spanish keyboard.
--	USB hubs and USB keyboards with built in USB hub are supported sice version 2.02. Check the firmware upgrade section.
+-	USB hubs and USB keyboards with built in USB hub are currently not supported
 -	Turn on the MSX without any floppy disk or cartridge inserted.
 -	The NUMLOCK indicator on the keyboard should turn on now to indicate correct connection.
 -	Make sure the computer enters the BASIC screen.
