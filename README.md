@@ -1,6 +1,6 @@
 👋 Hi, I’m Jeroen Taverne
 
-I have created an interface to connect a USB keyboard to a MSX computer, currently there are two versions:
+I have created an interface to connect a USB keyboard to a MSX computer, currently there are three versions:
 - For Philips NMS8250, NMS8255 and NMS8280 with the 26 pin connector
 - For Sony machines with the 13 pin keyboard connector like HB-F700, HB-F500, HB-F900
 - For Viktor HC-90 and HC-95 with the 20 pin connector
