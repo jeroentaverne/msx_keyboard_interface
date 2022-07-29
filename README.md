@@ -3,13 +3,13 @@
 I have created an interface to connect a USB keyboard to a MSX computer, currently there are three versions:
 - For Philips NMS8250, NMS8255 and NMS8280 with the 26 pin connector
 - For Sony machines with the 13 pin keyboard connector like HB-F700, HB-F500, HB-F900
-- For Viktor HC-90 and HC-95 with the 20 pin connector
+- For Viktor HC-90 and HC-95 with the 20 pin connector (no pictures yet)
 
 It consists of a small box (3D printed) with internal small computer which reads the USB keycodes and simulates the keypresses on the keyboard matrix.
 
 Extra features are added which are normally not possible with the real MSX keyboard.
 
-Some keyboards don't allow pressing cursor keys and space button at the same time because of ghosting. Playing games like Nemesis or Quarth could couse issues. That's why the left and right windows keys can be used as space as well with this my keyboard interface. Also see this post: https://www.msx.org/forum/semi-msx-talk/emulation/bluemsx-24-25-keyboard-emulation
+With a gaming keyboard no ghosting is possible with this interface. Some non gaming keyboards don't allow pressing cursor keys and space button at the same time. Playing games like Nemesis or Quarth could couse issues. That's why the left and right windows keys can be used as space as well with this my keyboard interface. Also see this post: https://www.msx.org/forum/semi-msx-talk/emulation/bluemsx-24-25-keyboard-emulation
 
 The firmware can be upgraded by connecting it to Windows/MAC/Linux using the micro USB connection. The firmware update is just drag and drop a file.
 
@@ -25,7 +25,7 @@ WARNING: NEVER connect the interface or USB keyboard while the MSX is powered on
 Setup:
 
 - The interface doesn't need external power, the micro USB connector stays disconnected during normal use
--	Insert the interface into the keyboard connector of the MSX. Make sure for the Philips version the "TOP SIDE" text is pointing to the top.
+-	Insert the interface into the keyboard connector of the MSX. Make sure for the Philips/Viktor version the "TOP SIDE" text is pointing to the top.
 -	Connect an USB keyboard which matches the layout of the original MSX keyboard, else the symbols will be in the wrong locations. For instance: Sony HB-F700P needs US international keyboard. HB-F700S need Spanish keyboard. HB-F700D need German keyboard. HB-F700F needs French keyboard. NMS8250/00 needs US international keyboard. NMS8250/16 needs Spanish keyboard.
 -	USB hubs and USB keyboards with built in USB hub are currently not supported
 -	Turn on the MSX without any floppy disk or cartridge inserted.
