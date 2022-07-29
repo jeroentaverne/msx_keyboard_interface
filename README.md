@@ -1,8 +1,9 @@
 👋 Hi, I’m Jeroen Taverne
 
 I have created an interface to connect a USB keyboard to a MSX computer, currently there are two versions:
-- For Philips NMS8250, NMS8255 and NMS8280
+- For Philips NMS8250, NMS8255 and NMS8280 with the 26 pin connector
 - For Sony machines with the 13 pin keyboard connector like HB-F700, HB-F500, HB-F900
+- For Viktor HC-90 and HC-95 with the 20 pin connector
 
 It consists of a small box (3D printed) with internal small computer which reads the USB keycodes and simulates the keypresses on the keyboard matrix.
 
@@ -35,6 +36,7 @@ Setup:
 - CTRL+ALT+F2 : German
 - CTRL+ALT+F3 : French
 - CTRL+ALT+F4 : Spanish
+- CTRL+ALT+F5 : Japanish
 
 -	Check if the keyboard works properly now by doing some typing. Press F12 to check if the helppage is shown properly. Press ESC to stop the auto typing.
 -	The current keyboard setting can be stored in FLASH now by pressing CTRL+ALT+S.
@@ -91,6 +93,7 @@ Extra keys:
 - CTRL+ALT+F2 : set German machine
 - CTRL+ALT+F3 : set French machine
 - CTRL+ALT+F4 : set Spanish machine
+- CTRL+ALT+F5 : set Japanish machine
 - CTRL+ALT+L : show current layout without and with shift
 - CTRL+ALT+D : start USB keycode debugger
 - CTRL+ALT+M : start keyboard matrix monitor
