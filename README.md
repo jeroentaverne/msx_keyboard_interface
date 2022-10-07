@@ -70,34 +70,34 @@ Firmware update:
 
 Extra keys:
 
-F6		: files
-F7		: load
-F8		: _system
-F9		: lprint
-F10		: _format
-F11		: screen 0:width 80:color 15,1,1
-F12		: show firmware version and help page
-shift+F6	: dir
-shift+F7	: copy
-shift+F8	: basic
-shift+F9	: set screen
-shift+F10	: _format
-shift+F11	: NA
-shift+F12	: show firmware version
+- F6		: files
+- F7		: load
+- F8		: _system
+- F9		: lprint
+- F10		: _format
+- F11		: screen 0:width 80:color 15,1,1
+- F12		: show firmware version and help page
+- shift+F6	: dir
+- shift+F7	: copy
+- shift+F8	: basic
+- shift+F9	: set screen
+- shift+F10	: _format
+- shift+F11	: NA
+- shift+F12	: show firmware version
 
-SCROLL LOCK key	: SELECT key
-PAUSE/BREAK key	: STOP key
-END key		: CTRL+N key (go to end of line)
-Left CTRL key		: CTRL key
-Left ALT key		: GRAPH key
-Right ALT key		: CODE key
-Right CTRL key		: “DEAD” key before or after right shift key
-Windows keys		: SPACE key for shooting/jumping in games when no gaming keyboard is used
-CTRL+ALT+SPACE 	: enable/disable auto fire (10Hz) on SPACE and Windows keys
-CTRL+ALT+L		: show current layout without and with shift
-CTRL+ALT+D		: start USB keycode debugger
-CTRL+ALT+M		: start keyboard matrix monitor
-CTRL+ALT+S		: store settings in FLASH
-CTRL+ALT+R		: retrieve settings from FLASH
+- SCROLL LOCK key	: SELECT key
+- PAUSE/BREAK key	: STOP key
+- END key		: CTRL+N key (go to end of line)
+- Left CTRL key		: CTRL key
+- Left ALT key		: GRAPH key
+- Right ALT key		: CODE key
+- Right CTRL key		: “DEAD” key before or after right shift key
+- Windows keys		: SPACE key for shooting/jumping in games when no gaming keyboard is used
+- CTRL+ALT+SPACE 	: enable/disable auto fire (10Hz) on SPACE and Windows keys
+- CTRL+ALT+L		: show current layout without and with shift
+- CTRL+ALT+D		: start USB keycode debugger
+- CTRL+ALT+M		: start keyboard matrix monitor
+- CTRL+ALT+S		: store settings in FLASH
+- CTRL+ALT+R		: retrieve settings from FLASH
 
 For orders and firmware change requests, please send me an email: j.taverne@gmail.com
