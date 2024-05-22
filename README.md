@@ -1,3 +1,5 @@
+Discord channel: https://discord.gg/fpFnJt2hVk
+
 👋 Hi, I’m Jeroen Taverne
 
 I have created an interface to connect a USB keyboard to a MSX computer, currently there are three versions:
