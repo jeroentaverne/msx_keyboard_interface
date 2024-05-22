@@ -44,9 +44,9 @@ Setup:
 
 	SHIFT+CTRL+ALT+F1 : US International USB keyboard
 	SHIFT+CTRL+ALT+F2 : German USB keyboard
-	SHIFT+CTRL+ALT+F3 : disable translation
-	SHIFT+CTRL+ALT+F4 : disable translation
-	SHIFT+CTRL+ALT+F5 : disable translation
+	SHIFT+CTRL+ALT+F4 : Spanish USB keyboard
+	SHIFT+CTRL+ALT+F5 : Italian USB keyboard
+	SHIFT+CTRL+ALT+F11 : Disable translation
 
 - Check if the keyboard works properly now by doing some typing. Press F12 to check if the help page is shown properly. Press ESC to stop the automatic typing.
 - The current settings can be stored in FLASH memory now by pressing CTRL+ALT+S.
